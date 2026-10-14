@@ -12,7 +12,7 @@ export const CONFERENCE_CONFIG = {
   venue: "Department of Physics, University College Thiruvananthapuram",
   
   // Paste your Google Form registration link here:
-  googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd_example_sram_2027_registration/viewform",
+  googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd_example_RAM_2027_registration/viewform",
   
   // Paste your published Google Sheet CSV URL here (leave "" to use fallbackRegistrationCount):
   googleSheetCsvUrl: "",
@@ -41,7 +41,7 @@ export const GALLERY_STORE_PHOTOS = [
     id: "store-1",
     title: "Carina Nebula Star-Forming Pillars (Southern Sky Deep Field)",
     category: "Deep Sky",
-    photographer: "SRAM Deep Sky Archive",
+    photographer: "RAM Deep Sky Archive",
     url: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1400&q=85"
   },
   {
@@ -104,7 +104,7 @@ export const AGENDA_DATA = [
     sessions: [
       { time: "09:00 - 10:15", title: "Keynote: Biosignature Constraints in Terrestrial Exoplanet Atmospheres", speaker: "Dr. Tariq Al-Mansoor (STScI)", room: "Sagan Auditorium", type: "Keynote" },
       { time: "10:30 - 12:15", title: "Multi-Messenger Gravitational Wave Counterparts & Kilonova Lightcurves", speaker: "Dr. Sofia Lindqvist (Max Planck Institute)", room: "Sagan Auditorium", type: "Symposium" },
-      { time: "13:45 - 15:30", title: "Hands-On Workshop: Cryogenic Infrared Spectrograph Pipeline Reduction", speaker: "SRAM Instrumentation Working Group", room: "Lab 204 - Rubin Suite", type: "Workshop" },
+      { time: "13:45 - 15:30", title: "Hands-On Workshop: Cryogenic Infrared Spectrograph Pipeline Reduction", speaker: "RAM Instrumentation Working Group", room: "Lab 204 - Rubin Suite", type: "Workshop" },
       { time: "16:00 - 18:00", title: "Graduate & Postdoc Poster Blitz + Instrumentation Expo", speaker: "48 Participating Research Groups", room: "Exhibition Concourse", type: "Poster" }
     ]
   },

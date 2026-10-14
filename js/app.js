@@ -348,10 +348,10 @@ async function fetchLiveRegistrationCount() {
  * Tracks website visits in the footer
  */
 function initVisitCounter() {
-  const storageKey = "sram_2026_gh_visits";
+  const storageKey = "ram_2027_gh_visits";
   let localIncrement = parseInt(localStorage.getItem(storageKey) || "0", 10);
-  if (!sessionStorage.getItem("sram_session_counted")) {
-    sessionStorage.setItem("sram_session_counted", "true");
+  if (!sessionStorage.getItem("ram_session_counted")) {
+    sessionStorage.setItem("ram_session_counted", "true");
     localIncrement += 1;
     localStorage.setItem(storageKey, localIncrement.toString());
   }
