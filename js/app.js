@@ -17,7 +17,7 @@ import {
 // --- UI State ---
 let selectedAgendaDay = 0;
 let selectedGalleryCategory = "All";
-let skyBrightness = "vivid"; // 'vivid' | 'balanced' | 'deep'
+let skyBrightness = "balanced"; // 'vivid' | 'balanced' | 'deep'
 
 /**
  * Switches between Home, Agenda, Speakers, Organizer, and Gallery tabs

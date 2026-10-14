@@ -1,18 +1,18 @@
 /**
  * ============================================================================
  *FILE: js/data.js
- * PURPOSE: Central configuration and content store for SRAM 2026.
+ * PURPOSE: Central configuration and content store for RAM-XII.
  * Organizers only need to edit this file to update text, links, schedules,
  * speakers, or gallery photos on GitHub Pages.
  * ============================================================================
  */
 
 export const CONFERENCE_CONFIG = {
-  dates: "November 12 – 14, 2026",
-  venue: "Southern Skies Observatory & Research Center, La Serena",
+  dates: "February 04 – 06, 2027",
+  venue: "Department of Physics, University College Thiruvananthapuram",
   
   // Paste your Google Form registration link here:
-  googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd_example_sram_2026_registration/viewform",
+  googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd_example_sram_2027_registration/viewform",
   
   // Paste your published Google Sheet CSV URL here (leave "" to use fallbackRegistrationCount):
   googleSheetCsvUrl: "",
@@ -26,8 +26,8 @@ export const CONFERENCE_CONFIG = {
 
   // Organizer long paragraph(s) displayed on the Home Page:
   overviewParagraphs: [
-    "Welcome to the 42nd Southern Regional Astronomy Meeting (SRAM 2026), hosted at the Southern Skies Observatory & Research Center. This premier three-day gathering brings together observational astronomers, theoretical astrophysicists, instrumentation engineers, and graduate researchers from across the southern hemisphere and beyond.",
-    "Our 2026 symposium focuses on next-generation wide-field spectroscopic surveys, time-domain multi-messenger astrophysics, exoplanet atmospheric characterization with JWST and ELT-class instruments, and high-redshift galaxy evolution. Built around collaborative workshops and dark-sky observing sessions, SRAM 2026 provides an intimate, high-impact forum for sharing early-stage discoveries and forging cross-institutional partnerships."
+    "Welcome to the 12th Southern Regional Astronomy Meeting (RAM-XII), hosted at the University College Thiruvananthapuram. This premier three-day gathering brings together observational astronomers, theoretical astrophysicists, instrumentation engineers, and graduate researchers from across the southern hemisphere and beyond.",
+    "Our 2027 symposium focuses on next-generation wide-field spectroscopic surveys, time-domain multi-messenger astrophysics, exoplanet atmospheric characterization with JWST and ELT-class instruments, and high-redshift galaxy evolution. Built around collaborative workshops and dark-sky observing sessions, RAM-XII provides an intimate, high-impact forum for sharing early-stage discoveries and forging cross-institutional partnerships."
   ]
 };
 
@@ -87,7 +87,7 @@ export const GALLERY_STORE_PHOTOS = [
 export const AGENDA_DATA = [
   {
     day: "Day 1",
-    date: "Nov 12, 2026",
+    date: "Feb 04, 2027",
     theme: "Cosmology, Dark Energy & Wide-Field Surveys",
     sessions: [
       { time: "08:30 - 09:30", title: "Registration, Badge Pickup & Welcome Espresso", speaker: "Organizing Committee", room: "Main Atrium", type: "Social" },
@@ -99,7 +99,7 @@ export const AGENDA_DATA = [
   },
   {
     day: "Day 2",
-    date: "Nov 13, 2026",
+    date: "Feb 05, 2027",
     theme: "Exoplanets, Stellar Physics & Time-Domain Astrophysics",
     sessions: [
       { time: "09:00 - 10:15", title: "Keynote: Biosignature Constraints in Terrestrial Exoplanet Atmospheres", speaker: "Dr. Tariq Al-Mansoor (STScI)", room: "Sagan Auditorium", type: "Keynote" },
@@ -110,13 +110,13 @@ export const AGENDA_DATA = [
   },
   {
     day: "Day 3",
-    date: "Nov 14, 2026",
+    date: "Feb 06, 2027",
     theme: "Radio Astronomy, SKA-Mid & Future Southern Facilities",
     sessions: [
       { time: "09:15 - 10:30", title: "Keynote: Fast Radio Bursts & Millisecond Pulsars with MeerKAT & SKA", speaker: "Prof. Kwame Osei (SARAO South Africa)", room: "Sagan Auditorium", type: "Keynote" },
       { time: "10:45 - 12:15", title: "Extreme Adaptive Optics for the Giant Magellan Telescope (GMT)", speaker: "Dr. Mateo Silva (Las Campanas Observatory)", room: "Sagan Auditorium", type: "Symposium" },
       { time: "13:30 - 15:00", title: "Town Hall: Decadal Priorities for Southern Hemisphere Ground Facilities", speaker: "Panel of Observatory Directors", room: "Sagan Auditorium", type: "Panel" },
-      { time: "15:15 - 16:30", title: "Best Student Paper Awards & Closing Remarks", speaker: "Dr. Clara Chen (SRAM 2026 Chair)", room: "Sagan Auditorium", type: "Ceremony" }
+      { time: "15:15 - 16:30", title: "Best Student Paper Awards & Closing Remarks", speaker: "Dr. Clara Chen (RAM-XII Chair)", room: "Sagan Auditorium", type: "Ceremony" }
     ]
   }
 ];
